@@ -1,0 +1,101 @@
+body{
+    background: url(fon4.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    background-color: #911c1a;
+    height: 250px;
+    position: fixed;
+    z-index: 4;
+    bottom: 90%;
+    right: 2.3px;
+    left: 0.1px;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+    border-bottom: 2px solid rgb(59, 0, 0)
+
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    background: #e0474485;
+    border-radius: 50px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .img{
+        width: 90%;
+    }
+}
+.knop{
+    color: rgb(228, 209, 209);
+    font-size: 35px;
+    font-family: segoe script;
+    text-decoration: none;
+}
+.box{
+    height: 500px;
+    width: 450px;
+    background-color: #f1795bde;
+    display: flex;
+    align-items: center;
+    border-radius: 20%;
+}
+.box1{
+    width: 100%;
+    height: 80%;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reg{
+    text-align:center ;
+    color: rgb(26, 1, 1);
+    font-family: segoe script;
+}
+.reg1{
+    color: rgb(26, 1, 1);
+    font-family: segoe script;
+}
+
+.reg2{
+    height: 40px;   
+    background: #e0474485;
+    width: 250px;
+    border-radius: 100px;
+    .reg1{
+        text-decoration: none;
+    }
+}
+.for{
+    padding: 30px 0px 0px 100px;
+}
+.inp{
+    background: #e0474485;
+    height: 40px;
+    width: 250px;
+    border-radius: 100px;
+}
+footer{
+    border-top: 2px solid rgb(59, 0, 0);
+    background: #911c1ae0;
+    height: 10%;
+    width: 120%;
+    position: fixed;
+    top: 90%;
+    right: 0.5px;
+    z-index: 3;
+}
+.fot{
+    display: flex;
+    height: 15%;
+    width: 120%;
+    justify-content: center;
+    .text1{
+        color: rgb(228, 209, 209);
+        font-family: segoe script;
+    }
+}
